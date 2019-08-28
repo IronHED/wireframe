@@ -19,16 +19,16 @@ import {
     NavLink,
     HashRouter
 } from "react-router-dom";
-import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
+import Home from "./components/Home";
+import Stuff from "./components/Stuff";
+import Contact from "./components/Contact";
 
 class Main extends Component {
     render() {
         return (
             <HashRouter>
                 <div>
-                    <h1>Simple SPA</h1>
+                    <h1>API Tester</h1>
                     <ul className="header">
                         <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/stuff">Stuff</NavLink></li>
