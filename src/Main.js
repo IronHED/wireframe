@@ -21,6 +21,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import Stuff from "./components/Stuff";
+import CoolStuff from "./components/CoolStuff";
 import Contact from "./components/Contact";
 
 class Main extends Component {
@@ -32,11 +33,13 @@ class Main extends Component {
                     <ul className="header">
                         <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/stuff">Stuff</NavLink></li>
+                        <li><NavLink to="/coolstuff">Cool Stuff</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <div className="content">
                         <Route exact path="/" component={Home} />
                         <Route path="/stuff" component={Stuff} />
+                        <Route path="/coolstuff" component={CoolStuff} />
                         <Route path="/contact" component={Contact} />
                     </div>
                 </div>
