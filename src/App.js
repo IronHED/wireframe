@@ -14,7 +14,7 @@ import React, { Component } from "react";
 /** The HashRouter component provides the foundation for the navigation
  *  and browser history handling that routing is made up of.
  */
-import { Route, Link, BrowserRouter as Router} from "react-router-dom";
+import { Route, BrowserRouter as Router} from "react-router-dom";
 import Navbar from './components/layout/Navbar';
 //import Landing from './components/layout/landing';
 import Routes from './components/routing/Routes';
