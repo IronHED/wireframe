@@ -4,7 +4,7 @@ class Stuff extends Component {
     render() {
         return (
             <div>
-                <h2>Cool STUFF</h2>
+                <h2>My STUFF</h2>
                 <p>Another page to put cool content.</p>
                 <ol>
                     <li>Do Something</li>

@@ -14,36 +14,18 @@ import React, { Component } from "react";
 /** The HashRouter component provides the foundation for the navigation
  *  and browser history handling that routing is made up of.
  */
-import {
-    Route,
-    NavLink,
-    HashRouter
-} from "react-router-dom";
-import Home from "./components/Home";
-import Stuff from "./components/Stuff";
-import CoolStuff from "./components/CoolStuff";
-import Contact from "./components/Contact";
+import { Route, Link, BrowserRouter as Router} from "react-router-dom";
+import Navbar from './components/layout/Navbar';
+//import Landing from './components/layout/landing';
+import Routes from './components/routing/Routes';
 
 class App extends Component {
     render() {
         return (
-            <HashRouter>
-                <div>
-                    <h1>API Tester</h1>
-                    <ul className="header">
-                        <li><NavLink exact to="/">Home</NavLink></li>
-                        <li><NavLink to="/stuff">Stuff</NavLink></li>
-                        <li><NavLink to="/coolstuff">Cool Stuff</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
-                    </ul>
-                    <div className="content">
-                        <Route exact path="/" component={Home} />
-                        <Route path="/stuff" component={Stuff} />
-                        <Route path="/coolstuff" component={CoolStuff} />
-                        <Route path="/contact" component={Contact} />
-                    </div>
-                </div>
-            </HashRouter>
+            <Router>
+                <Navbar />                    
+                    <Route component={Routes} />         
+            </Router>
             
         );
     }
