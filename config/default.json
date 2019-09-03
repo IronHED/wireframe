@@ -1,6 +1,6 @@
 {
-  "mongoURI": "",
-  "jwtSecret": "secret",
+  "mongoURI": "mongodb+srv://blockchainpete:Stay1!pos@dev-fantoken-l0fgh.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "globaltourbookingservice",
   "githubClientId": "",
   "githubSecret": ""
 }
