@@ -14,7 +14,7 @@ const Landing = ({ isAuthenticated }) => {
         <div className='landing-inner'>
           <h1 className='x-large'>Wireframe</h1>
           <p className='lead'>
-            A wire-frame for a empty Web Application
+            A Web Application Wire-frame.
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
