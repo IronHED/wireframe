@@ -1,4 +1,4 @@
-# Wireframe 0.1
+# Wireframe 0.1.0
 
 > Web Application template.
 
@@ -44,7 +44,7 @@ Peter McQuillan
 
 ### Version
 
-.0.1.0
+0.1.0
 
 ### License
 
