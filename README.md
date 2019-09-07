@@ -7,6 +7,12 @@ This is a MERN stack application.
 It is a small wireframe web application template that includes authentication, profiles and forum posts.
 The idea is to have a quick out of the box application with Login, Security, State, Routing and Database storage.
 
+The Web Application is being hosted on Heroku.
+The backend database is MongoDB.
+The client is written in Reactjs
+The Web Application state is in React-Redux
+
+
 ## Mern Stack
 MongoDB - Express - React - Nodejs
 
