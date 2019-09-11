@@ -31,7 +31,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to='/profiles'>Players</Link>
+        <Link to='/profiles'>Dart Players</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
@@ -46,7 +46,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i class="fad fa-lightbulb"></i> Wireframe
+          <i className="fad fa-lightbulb"></i> Wireframe
         </Link>
       </h1>
       {!loading && (
