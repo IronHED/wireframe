@@ -31,7 +31,12 @@ const Education = ({ education, deleteEducation }) => {
 
   return (
     <Fragment>
+<<<<<<< HEAD
       <h2 className="my-2">Players Notable Recent Results</h2>
+=======
+      <h2 className="my-2">Results
+      </h2>
+>>>>>>> 7e80a16c433f8850680111c5139f23e1e7da1be1
       <table className="table">
         <thead>
           <tr>
