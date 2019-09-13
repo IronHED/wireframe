@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const ProfileAbout = ({
   profile: {
     bio,
-    skills,
     user: { name }
   }
 }) => (
