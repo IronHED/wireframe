@@ -71,7 +71,7 @@ const Profile = ({
               )}
             </div>
 
-            
+            { profile.githubusername && (<ProfileGithub username={profile.githubusername} /> )}
           </div>
         </Fragment>
       )}
