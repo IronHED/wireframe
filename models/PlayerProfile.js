@@ -20,27 +20,20 @@ const PlayerProfileSchema = new mongoose.Schema({
   },
   history: [
     {
-      title: {
+      tournament: {
         type: String,
         required: true
       },
-      company: {
+      team: {
         type: String,
         required: true
       },
       location: {
         type: String
       },
-      from: {
+      year: {
         type: Date,
         required: true
-      },
-      to: {
-        type: Date
-      },
-      current: {
-        type: Boolean,
-        default: false
       },
       description: {
         type: String
