@@ -70,8 +70,6 @@ const Profile = ({
                 <h4>No results yet.</h4>
               )}
             </div>
-
-            
           </div>
         </Fragment>
       )}
